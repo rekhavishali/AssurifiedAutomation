@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-27T18:55:47 IST" name="Default suite" finished-at="2023-11-27T18:56:23 IST" duration-ms="36275">
+    <groups>
+    </groups>
+    <test started-at="2023-11-27T18:55:47 IST" name="Default test" finished-at="2023-11-27T18:56:23 IST" duration-ms="36275">
+      <class name="TDRMAutomation.TDRMAutomation.LoginSuccess">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:TDRMAutomation.TDRMAutomation.LoginSuccess@36bc55de]" started-at="2023-11-27T18:55:47 IST" name="setUpSuite" finished-at="2023-11-27T18:55:47 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TDRMAutomation.TDRMAutomation.LoginSuccess@36bc55de]" started-at="2023-11-27T18:55:48 IST" name="setUp" finished-at="2023-11-27T18:55:50 IST" duration-ms="1961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSuccessful(java.lang.String,java.lang.String)[pri:0, instance:TDRMAutomation.TDRMAutomation.LoginSuccess@36bc55de]" started-at="2023-11-27T18:55:50 IST" name="testLoginSuccessful" data-provider="excelData" finished-at="2023-11-27T18:56:23 IST" duration-ms="32787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vishali.a@bourntec.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sairam123456$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessful -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TDRMAutomation.TDRMAutomation.LoginSuccess@36bc55de]" started-at="2023-11-27T18:56:23 IST" name="tearDown" finished-at="2023-11-27T18:56:23 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TDRMAutomation.TDRMAutomation.LoginSuccess -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
